@@ -1,0 +1,12 @@
+{
+  "name": "variable-fonts-exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joshua Comeau",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

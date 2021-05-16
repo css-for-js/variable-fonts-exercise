@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  --color-gray-50: hsl(270deg 25% 96%);
+  --color-gray-100: hsl(270deg 20% 90%);
+  --color-gray-300: hsl(270deg 17% 84%);
+  --color-gray-400: hsl(270deg 17% 72%);
+  --color-gray-500: hsl(270deg 12% 58%);
+  --color-gray-700: hsl(270deg 17% 30%);
+  --color-gray-900: hsl(270deg 22% 12%);
+  --color-gray-1000: hsl(270deg 20% 8%);
+  --color-sunny: hsl(45deg 60% 80%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-wrapper {
+  background: var(--color-gray-1000);
+  color: var(--color-gray-50);
+  padding: 64px 32px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(1200 / 16 * 1rem);
+  margin: 0 auto;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.sublogo {
+  font-style: italic;
+  color: var(--color-gray-400);
+  font-weight: 400;
+}
+
+.person-name {
+  font-weight: 550;
+  color: var(--color-gray-300);
+}
+
+.legal {
+  margin-top: auto;
+  font-weight: 300;
+  color: var(--color-gray-500);
+}
+
+.links {
+  display: flex;
+  gap: 64px;
+}
+
+.links h2 {
+  font-weight: 600;
+  color: var(--color-gray-500);
+  margin-bottom: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.links li {
+  margin: 16px 0;
+}
+
+.links li:last-of-type {
+  margin-bottom: 0;
+}
+
+.links a {
+  color: var(--color-gray-50);
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  /* Fake styles, just to stub it out */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
