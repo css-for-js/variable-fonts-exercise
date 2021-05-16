@@ -1,12 +1,15 @@
 {
-  "name": "variable-fonts-exercise",
+  "name": "variable-fonts",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "serve ."
+    "start": "live-server --port=5000 --host=localhost ."
   },
   "dependencies": {
-    "serve": "^11.3.2"
+    "live-server": "1.2.1"
+  },
+  "engines": {
+    "npm": ">5"
   }
 }
