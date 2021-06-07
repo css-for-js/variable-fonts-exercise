@@ -8,6 +8,10 @@ Update the typography so that it matches this screenshot:
 
 Don't worry about mobile styles; this challenge is purely about the text.
 
+You can access the design on Figma:
+
+- https://www.figma.com/file/KbQfipRhstSKwc0EUbnJ71/Variable-Fonts-Exercise
+
 ## Font info
 
 The font used is _Raleway_. A variable font has already been included in the `index.html` file, but it isn't being used anywhere yet.
