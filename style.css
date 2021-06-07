@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -10,6 +11,15 @@ html {
   --color-gray-700: hsl(270deg 12% 58%);
   --color-gray-900: hsl(270deg 22% 12%);
   --color-gray-1000: hsl(270deg 20% 8%);
+  --weight-thin: 100;
+  --weight-extra-light: 200;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+  --weight-extra-bold: 800;
+  --weight-black: 900;
 }
 
 html,
@@ -46,10 +56,23 @@ footer {
 .logo {
   font-size: 2rem;
   margin-bottom: 16px;
+  font-weight: var(--weight-black);
+}
+
+.sublogo {
+  font-weight: var(--weight-medium);
+  font-style: italic;
+  color: var(--color-gray-500);
+}
+
+.person-name {
+  font-weight: var(--weight-bold);
+  color: var(--color-gray-300);
 }
 
 .legal {
   margin-top: auto;
+  color: var(--color-gray-700);
 }
 
 .links {
@@ -61,6 +84,8 @@ footer {
   margin-bottom: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: var(--weight-bold);
+  color: var(--color-gray-700);
 }
 
 .links li {
@@ -73,6 +98,8 @@ footer {
 
 .links a {
   text-decoration: none;
+  color: var(--color-gray-100);
+  font-weight: var(--weight-medium);
 }
 
 main {
