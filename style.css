@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -20,6 +19,8 @@ html {
   --weight-bold: 700;
   --weight-extra-bold: 800;
   --weight-black: 900;
+
+  font-family: 'Raleway', sans-serif;
 }
 
 html,
